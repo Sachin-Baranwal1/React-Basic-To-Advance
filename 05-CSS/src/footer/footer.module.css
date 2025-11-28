@@ -1,0 +1,15 @@
+.head{
+    background-color: seagreen;
+    display: flex;
+    margin: 5px;
+    border-radius: 5px ;
+
+}
+
+.btn{
+    background-color: sienna;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin: 5px 10px;
+}
