@@ -24,7 +24,8 @@ const App = () => {
 
     setTimeout(() => {
       setFlipAnim(false);
-    }, 800);
+      
+    }, 500);
 
     if (x < p) setHeadsCount((prev) => prev + 1);
     else setTailsCount((prev) => prev + 1);
