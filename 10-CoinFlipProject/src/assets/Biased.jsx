@@ -4,10 +4,10 @@ const Biased = (props) => {
   return (
    
       <div
-        className="h-1/6 w-full flex flex-col  justify-center  items-center text-3xl
+        className="h-1/6 w-full flex flex-col  justify-center text-xl items-center md:text-3xl
        text-gray-300/90  gap-y-4"
       >
-        <div className="flex gap-x-3  items-center ">
+        <div className="flex md:gap-x-3  items-center ">
           <ArrowBigLeft color="BlanchedAlmond" size={38} />
           Tails <TextCursor /> Biasedness <TextCursor /> heads{" "}
           <ArrowBigRight color="BlanchedAlmond" size={38} />
