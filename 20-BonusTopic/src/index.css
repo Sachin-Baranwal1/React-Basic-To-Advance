@@ -2,12 +2,10 @@
 * {
   box-sizing: border-box;
   font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  background-color: black;
 }
 
 html, body,#root {
   height: 100%;
   width: 100%;
-  color: azure;
+  background-color: black;
 }

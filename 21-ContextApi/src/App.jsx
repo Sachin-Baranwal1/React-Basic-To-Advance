@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Navbar from './Components/Navbar'
 const App = () => {
   return (
-    <div>
-       <h2>Hello This is me Sachin.</h2>
+    <div className='Nav'>
+      <Navbar />
     </div>
   )
 }
